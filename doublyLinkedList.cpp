@@ -126,7 +126,6 @@ private:
 // Print
 void print( DoublyLinkedList< Foo > & list )
 {
-    // Read only pointer.
     DoublyLinkedList< Foo >::Node* node = list.getHead();
     
     std::cout << "DoublyLinkedList< Foo >: { "; 
