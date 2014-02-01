@@ -90,6 +90,7 @@ public:
         newNode->m_prev = nullptr;
     }
 
+private:
     void deleteNode( Node* node )
     {
         if( node->m_prev != nullptr )
@@ -107,7 +108,6 @@ public:
         }
     }
 
-private:
     Node* m_head;
     Node* m_tail;
 };
